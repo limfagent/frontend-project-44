@@ -1,0 +1,36 @@
+{
+  "name": "frontend-project-44",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/limfagent/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/limfagent/frontend-project-44/actions)",
+  "homepage": "https://github.com/limfagent/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/limfagent/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limfagent/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "frontend-project-44": "bin/brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.11.0",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.1"
+  }
+}
