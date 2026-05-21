@@ -1,8 +1,7 @@
-import runEngine from '../index.js';
+import runEngine from '../index.js'
 
-const description = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.'
 
-// Функция для поиска НОД (алгоритм Эвклида — классика!)
 const getGcd = (a, b) => {
   if (b === 0) {
     return a;
